@@ -16,20 +16,20 @@ There are 4 goals for this project:
 4. Create a data visualization tool to view the related literature.
 
 ## Approach
-- Preprocess the Data
-- Read data from dataset
-- Extract key features from each document
-- Load data into dataframes
-- Clean data
-- Natural Language Processing (Step 1)
-- Text Preprocessing: (Stop Words Removal); (Text Parsing); (Tokenization)
-- Text Representation: (Text Vectorization)
-- Machine Learning Processing (Step 2)
-- Classification: (Dimensionality Reduction->PCA); (Clustering Algorithm); (Dimensionality Reduction->t-SNE)
-- Topic Modeling
-- Data Visualization (Step 3)
-- Plot Setup
-- Show Plot
+1. Preprocess the Data
+  - Read data from dataset
+  - Extract key features from each document
+  - Load data into dataframes
+  - Clean data
+2. Natural Language Processing (Step 1)
+  - Text Preprocessing: (Stop Words Removal); (Text Parsing); (Tokenization)
+  - Text Representation: (Text Vectorization)
+3. Machine Learning Processing (Step 2)
+  - Classification: (Dimensionality Reduction->PCA); (Clustering Algorithm); (Dimensionality Reduction->t-SNE)
+  - Topic Modeling
+4. Data Visualization (Step 3)
+  - Plot Setup
+  - Show Plot
 
 ## Final Evaluation and Conclusion
 In this project, I aim to create a deep learning model and a software application that can help summarize and cluster literature together. The primary models used for this project are Natural Language Processing (NLP) and Machine Learning (ML) algorithms and techniques to process textual data to be clustered into groups. The dataset used for this project was a huge dataset of academic papers obtained from Kaggle, titled: “Covid-19 Open Research Dataset (CORD-19)”.
